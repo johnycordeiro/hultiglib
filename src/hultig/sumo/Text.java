@@ -899,6 +899,11 @@ public final class Text extends LinkedList<Sentence>
         System.out.println(  "------");
         Text tb= new Text(stB);
         tb.printJustified(60);
+        
+        System.out.println("\n\n");
+        for (Sentence s : tb.getSentences()) {
+            System.out.println(s);
+        }
 
         String stC =
                 "High quality global journalism requires investment. Please share this article with "

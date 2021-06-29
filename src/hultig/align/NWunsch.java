@@ -126,8 +126,8 @@ public class NWunsch {
     }
 
     /**
-     * Define metrica de distância entre "simbolos" do alfabeto.
-     * @param i int
+     * Defines the distance metric among alphabet.
+     * @param i int 
      * @param j int
      * @return double
      */
